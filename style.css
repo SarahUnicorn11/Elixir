@@ -1,3 +1,31 @@
+a {
+	color: #A79C99;
+	text-decoration: none;
+	margin-right: 30px;
+	font-family: 'Comforter', cursive;
+	font-size: 2em;
+}
+
+.topnav {
+	background-color: #524541;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	text-align: right;
+	height: 35px;
+}
+.topnav a:hover {
+  color: #FFCD9E;
+}
+
+.active {
+  color: #FFF5EC;
+}
+
+.leaves {
+	background-color: none;
+}
+
 body {
 	background-color: #130500;
 }
@@ -7,4 +35,9 @@ h1 {
 	font-family: 'Comforter', cursive;
 	text-align: center;
 	font-size: 5em;
+	padding-top: 60px;
+}
+
+p {
+	color: #A79C99;
 }
